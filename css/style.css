@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* Global/Common Area */
 .navbar-brand {
   margin-right: 0;
 }
@@ -16,4 +17,57 @@ body {
   background-color: #a4bc46;
   color: #fff;
   border: none;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* Woman Jacket */
+.woman-jacket-wrap {
+  justify-content: center;
+  column-gap: 44px;
+}
+.woman-jacket {
+  width: 370px;
+  height: 100%;
+  border-radius: 30px;
+}
+.woman-jacket-thumbnail {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+.product-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.product-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.price-buynow {
+  justify-content: space-between;
+}
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+/* Man Jacket */
+.man-jacket-wrap {
+  justify-content: center;
+  column-gap: 44px;
+}
+.man-jacket {
+  width: 370px;
+  height: 100%;
+  border-radius: 30px;
+}
+.man-jacket-thumbnail {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }
